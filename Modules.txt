@@ -1,0 +1,99 @@
+3D Stargazing
+Modules.txt
+1/2/2022	Dan Cooper
+
+Overview
+	The purpose of this app is to visualize the stars in three dimensions.
+	It is for exploring and learning the relationship between brightness and distance.
+	It is not a planetarium type app, nor a game, but somewhere in between.
+
+Hardware
+	Android phone or tablet
+
+Programming environment
+	Programming will be done in Android Studio.
+	The project will managed and archived in GitHub.
+	Libraries needed
+		3D rendering
+			full screen
+				anaglyph
+				scroll x offset
+			split screen
+				parallel
+				cross-eye
+		Math
+		Touch screen
+		Mouse
+		Graphics
+			point (size, style, size, color)
+			line (x1, y1, x2, y2, style, width, color)
+			background (color or image)
+
+User Interface
+	Mouse input
+		scroll bars and buttons
+			right button to toggle scroll bars and buttons on display
+			left button to click or scroll
+			wheel to scroll last selected scroll bar
+	Touch screen input
+		fixed scroll regions
+			horizontal, top and bottom of screen
+			vertical, right and left of screen
+		tap in center to toggle scroll bars and buttons on display
+		pinch and zoom to change display scale
+	select display mode
+		3D mode
+		show constellation lines
+		show constellation names
+		show star names
+		background color or image
+
+Rotation and translation
+	order of operations: rotate, offset, scale
+	inputs
+		axis_values[3], axes_to_rotate[2], offsets[3], scale
+	outsputs
+		axis_values[3]
+
+Brightness
+	inputs
+		axis_values[3] (double)
+		absolute_magnitude (float)
+	outputs
+		distance (double)
+		apparent_magnitude (float)
+
+Field of view
+	hardware parameters
+		screen dimensions[2] (float) ; inches or cm
+		screen pixels[2] (int)
+		interpupillary distance (float)
+		distance to screen (float)
+	functions
+		projection
+			inputs
+				axis_values[3] (double)
+				zoom (float)
+			outputs
+				screen position[2] (int)
+
+Build tables
+	This module runs on a PC and is not included in the app.
+	It can be Android code run in an emulator or any other language including a spreadsheet.
+		stars[number_of_stars][fields]
+			This table is abstracted from hygdata_v3, 119616 stars
+			fields
+				star_name (string)
+				constellation_abbreviation (string)
+				absolute_magnitude (float)
+				coordinates[3] (double)
+				color_index (int)
+		constellations[number_of_constellations][fields]
+			fields
+				constellation_name (string)
+				constellation_abbreviation (string)
+				label_coordinates[3] (double)				
+		lines[number_of_lines][fields]
+			constellation_abbreviation (string)
+			star1 (int)
+			star2 (int)
