@@ -13,6 +13,9 @@ Hardware
 Programming environment
 	Programming will be done in Android Studio.
 	The project will managed and archived in GitHub.
+		User name:	danc19fr
+		Password:	amateurastronomer
+		Repository:	3D-Stargazer
 	Libraries needed
 		3D rendering
 			full screen
@@ -47,12 +50,20 @@ User Interface
 		show constellation names
 		show star names
 		background color or image
+	scroll
+		pan (rotate in x, y)
+		tilt(rotate in y, z)
+		zoom (reduce size of window)
+			+X = The direction of the vernal equinox (at epoch 2000).
+			+Y = The direction of R.A. 6 hours, declination 0 degrees.
+			+Z = Towards the north celestial pole.
+		warp (move forward into star field)
 
 Rotation and translation
-	order of operations: rotate, offset, scale
+	order of operations: scale, pan, tilt, translate
 	inputs
 		axis_values[3], axes_to_rotate[2], offsets[3], scale
-	outsputs
+	outputs
 		axis_values[3]
 
 Brightness
@@ -77,9 +88,18 @@ Field of view
 			outputs
 				screen position[2] (int)
 
+Display
+	inputs
+		display_table
+			proper name
+			constellation
+			axis_values[3]
+			star color
+			star circle diameter			
+
 Build tables
 	This module runs on a PC and is not included in the app.
-	It can be Android code run in an emulator or any other language including a spreadsheet.
+	It can done in a spreadsheet.
 		stars[number_of_stars][fields]
 			This table is abstracted from hygdata_v3, 119616 stars
 			fields
