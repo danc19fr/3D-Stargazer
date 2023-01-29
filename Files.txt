@@ -3,6 +3,14 @@ Files.txt
 3D Stargazer	1/29/2022	Dan Cooper
 
 Files uploaded to GitHub Repository
+	constellationship.csv
+		Table of constellation lines, indexing into star_table.csv
+		Derived from Github.com/stellarium/skycultures/modern/constellationship.fab
+	
+	constellation_names.eng.csv
+		English names of constellations
+		Derived from Github.com/stellarium/skycultures/modern/constellation_names.eng.fab
+
 	display.ods
 		Spreadsheet showing algorithms to display stars as filled circles without borders.
 		Includes calculations for apparent magnitude and color.
@@ -24,20 +32,12 @@ Files uploaded to GitHub Repository
 	
 	star_table.csv
 		Table of stars with names, positions, brightness, and color.
-		Exported from hygdata_v3.ods
+		Derived from Github.com/astronexus/HYG-Database/hygdata_v3.csv
 
 Files used in development but not uploaded to GitHub Repository
 
 	bbr_color.txt
 		Color representation of black bodies, used to explore color representation.
-
-	constellationship.txt
-		Table of constellation lines, indexing into star_table.csv
-		Source: Github.com/stellarium/skycultures/modern/constellationship.fab
-	
-	constellation_names.eng.txt
-		English names of constellations
-		Source: Github.com/stellarium/skycultures/modern/constellation_names.eng.fab
 
 	hygdata_v3.csv
 		Downloaded from Github.com/astronexus/HYG-Database/hygdata_v3.csv
@@ -45,6 +45,7 @@ Files used in development but not uploaded to GitHub Repository
 	hygdata_v3.ods
 		Reduce the star table to only include fields used in this project.
 		Derived from hygdata_v3.csv
+		Export to star_table.csv
 	
 	starcolor.ods
 		Used to explore color representation.
