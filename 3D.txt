@@ -1,5 +1,0 @@
-It looks like the 3D part is easy. I ordered a VR phone viewer for $10 and 50 red-cyan viewers for $8. GitHub has several 3D libraries for Android. All we have to do create left and right images and interface to the library. I will give red-cyan viewers to all the kids at Casper AeroLab. We can view some really cool panoramic images from Mars, taken by the Spirit and Opportunity rovers.
-
-The first thing is to come up to speed on Android Studio and GitHub.
-
-There are  a bunch of ways to view 3D. Anaglyph (red-green) uses the whole screen and the cheapest viewer ($0.16). Parallel uses half the screen for each image and needs a viewer. I already have a mirror viewer that works for that. The lens-based viewer I ordered gives a bigger image. Cross-eye swaps the images. You can view it without a viewer, but it is less comfortable and gives a small image. You can use your hands to frame it so each eye sees the only the correct image. The 3D libraries let you choose any of these methods.
