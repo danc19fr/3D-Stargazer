@@ -1,6 +1,4 @@
-3D Stargazing
-Modules.txt
-1/2/2022	Dan Cooper
+Modules.txt		1/29/2022	Dan Cooper
 
 Overview
 	The purpose of this app is to visualize the stars in three dimensions.
@@ -14,7 +12,6 @@ Programming environment
 	Programming will be done in Android Studio.
 	The project will managed and archived in GitHub.
 		User name:	danc19fr
-		Password:	amateurastronomer
 		Repository:	3D-Stargazer
 	Libraries needed
 		3D rendering
@@ -97,23 +94,8 @@ Display
 			star color
 			star circle diameter			
 
-Build tables
-	This module runs on a PC and is not included in the app.
-	It can done in a spreadsheet.
-		stars[number_of_stars][fields]
-			This table is abstracted from hygdata_v3, 119616 stars
-			fields
-				star_name (string)
-				constellation_abbreviation (string)
-				absolute_magnitude (float)
-				coordinates[3] (double)
-				color_index (int)
-		constellations[number_of_constellations][fields]
-			fields
-				constellation_name (string)
-				constellation_abbreviation (string)
-				label_coordinates[3] (double)				
-		lines[number_of_lines][fields]
-			constellation_abbreviation (string)
-			star1 (int)
-			star2 (int)
+Tables
+	These tables define the star database.
+	star_table.csv	
+	
+	

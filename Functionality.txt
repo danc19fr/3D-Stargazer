@@ -1,0 +1,56 @@
+Functionality.txt
+
+3D Stargazer	1/29/2022	Dan Cooper
+
+Overview
+	The purpose of this app is to visualize the stars in three dimensions.
+	It is for exploring the sky and learning the relationship between brightness and distance.
+	It is not a planetarium type app, nor a game, but somewhere in between.
+
+Hardware
+	Android phone or tablet
+
+Programming environment
+	Programming will be done in Android Studio, using Kotlin and/or Java.
+	The project will managed and archived in GitHub.
+	User name:	danc19fr
+	Repository:	3D-Stargazer
+
+Home screen: sky image
+	Up on screen is always to the north.
+	RA and DEC are directions relative to Earth's equatorial coordinates, no matter the position in space.
+	Show stars to apparent magnitude 6.5.
+	Touch screen
+		Swipe (2 axes) and pinch to scroll 3 variables, selected on the setup screen.
+		Short tap a star to open a window with star data. 
+		Long tap anywhere to switch to setup screen.
+	Mouse
+		Drag (2 axes) and scroll wheel to scroll 3 variables, selected on the setup screen.
+		Left button tap at a star to open a window with star data. 
+		Right button to switch to setup screen.
+	Scroll variables
+		pan: rotate viewpoint horizontally, in RA (horizontal mouse drag or swipe)
+		tilt: rotate viewpoint vertically, in DEC (horizontal mouse drag or swipe)
+		zoom: change magnification (mouse scroll wheel or pinch)
+		warp: move viewpoint in the direction of the center of the screen (scroll wheel or pinch)
+			After warp, pan, tilt, and zoom will start from the new position.
+			Press Home to return to Earth.
+
+Setup screen
+	Buttons
+		Home
+			Set viewpoint back to Earth
+		3D mode
+			Mono
+			3D anaglyph
+			3D parallel
+			3D cross-eye
+		Select scroll wheel / pinch function
+			zoom
+			warp
+	Home screen settings
+		show star names
+		show constellation lines
+		show constellation names
+		show RA and DEC at screen center
+
