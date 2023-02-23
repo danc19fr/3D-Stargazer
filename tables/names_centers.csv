@@ -1,0 +1,101 @@
+# names_centers,,,,,,,
+# https://pbarbier.com/constellations/,,,,,,,
+#,,,,,,,
+#,id,The database primary key.,,,,,
+#,RA,Right ascension J2000 (decimal hours) of center,,,,,
+#,DEC,Declination J2000 (decimal degrees) of center,,,,,
+#,Area,Constellation area (square degrees),,,,,
+#,Rank,Constellation rank in area,,,,,
+#,Con,Constellation abbreviation,,,,,
+#,,,,,,,
+id,RA,DEC,Area,Rank,Con,Latin Name,English Name or Description
+1,0.6816918,39.592858,722.28,19,And,Andromeda,Princess of Ethiopia
+2,10.1401302,-33.84212,238.9,62,Ant,Antlia,Air pump
+3,16.202039,-75.222818,206.33,67,Aps,Apus,Bird of Paradise
+4,22.4078441,-10.156064,979.85,10,Aql,Aquila,Eagle
+5,19.6476459,2.09636,652.47,22,Aqr,Aquarius,Water bearer
+6,17.3285399,-54.083561,237.06,63,Ara,Ara,Altar
+7,2.6623744,19.959053,441.39,39,Ari,Aries,Ram
+8,5.9425072,40.621073,657.44,21,Aur,Auriga,Charioteer
+9,14.6276508,29.108047,906.83,13,Boo,Bootes,Herdsman
+10,4.7448994,-38.014894,124.86,81,Cae,Caelum,Graving tool
+11,6.4162224,68.435318,756.83,18,Cam,Camelopardalis,Giraffe
+12,21.022575,-18.550517,413.95,40,Cap,Capricornus,Sea goat
+13,8.9538919,-61.357069,494.18,34,Car,Carina,Keel of Argonauts' ship
+14,1.1685514,61.583129,598.41,25,Cas,Cassiopeia,Queen of Ethiopia
+15,13.070687,-45.016238,1060.42,9,Cen,Centaurus,Centaur
+16,22.9714794,70.823912,587.79,27,Cep,Cepheus,King of Ethiopia
+17,1.6197811,-8.727667,1231.41,4,Cet,Cetus,Sea monster (whale)
+18,10.6950132,-78.993614,131.59,79,Cha,Chamaeleon,Chameleon
+19,14.7708364,-63.076879,93.35,85,Cir,Circinus,Compasses
+20,6.8302387,-21.857106,380.12,43,CMa,Canis Major,Big dog
+21,7.6293346,5.897637,183.37,71,CMi,Canis Minor,Little dog
+22,8.6832192,19.189402,505.87,31,Cnc,Cancer,Crab
+23,5.7934937,-35.4414,270.18,54,Col,Columba,Dove
+24,12.7529658,22.223305,386.47,42,Com,Coma Berenices,Berenice's hair
+25,18.6467655,-41.05371,127.7,80,CrA,Corona Australis,Southern crown
+26,15.887232,32.093072,178.71,73,CrB,Corona Borealis,Northern crown
+27,11.4075635,-15.650659,282.4,53,Crt,Crater,Cup
+28,12.4481545,-59.992374,68.45,88,Cru,Crux,Cross (southern)
+29,12.4239258,-18.096379,183.8,70,Crv,Corvus,Crow
+30,13.1476296,40.041877,465.19,38,CVn,Cane Venatici,Hunting dogs
+31,20.6100642,42.536327,803.98,16,Cyg,Cygnus,Swan
+32,20.6802408,12.155585,188.55,69,Del,Delphinus,Porpoise
+33,5.1196574,-60.977305,179.17,72,Dor,Dorado,Swordfish
+34,16.657896,64.184601,1082.95,8,Dra,Draco,Dragon
+35,21.2017824,7.465545,71.64,87,Equ,Equuleus,Little horse
+36,3.7425048,-20.767627,1137.92,6,Eri,Eridanus,River
+37,2.7659606,-31.21532,397.5,41,For,Fornax,Furnace
+38,7.1558504,23.253119,513.76,30,Gem,Gemini,Twins
+39,22.5341962,-44.933537,365.51,45,Gru,Grus,Crane
+40,17.2875889,28.118352,1225.15,5,Her,Hercules,"Hercules, son of Zeus"
+41,3.2326672,-52.974629,248.88,58,Hor,Horologium,Clock
+42,10.5677493,-17.137458,1302.84,1,Hya,Hydra,Sea serpent
+43,2.3679085,-70.98557,243.04,61,Hyi,Hydrus,Water snake
+44,21.6104956,-58.121953,294.01,49,Ind,Indus,Indian
+45,22.4973891,45.040691,200.69,68,Lac,Lacerta,Lizard
+46,10.6933004,14.780165,946.96,12,Leo,Leo,Lion
+47,5.5746528,-18.997856,290.29,51,Lep,Lepus,Hare
+48,15.2244733,-15.158926,538.05,29,Lib,Libra,Balance
+49,10.3490416,33.320787,231.96,64,LMi,Leo Minor,Little lion
+50,15.281479,-42.201449,333.68,46,Lup,Lupus,Wolf
+51,8.0143961,46.232331,545.39,28,Lyn,Lynx,Lynx
+52,18.8433796,36.524693,286.48,52,Lyr,Lyra,Lyre or harp
+53,5.4883002,-77.09548,153.48,75,Men,Mensa,Table mountain
+54,20.9646853,-35.937835,209.51,66,Mic,Microscopium,Microscope
+55,7.0190606,-2.667058,481.57,35,Mon,Monoceros,Unicorn
+56,12.5727924,-69.75414,138.35,77,Mus,Musca,Fly
+57,16.0721655,-51.528726,165.29,74,Nor,Norma,Carpenter's Level
+58,20.1275622,-82.631196,291.05,50,Oct,Octans,Octant
+59,17.3022478,-5.21711,948.34,11,Oph,Ophiuchus,Holder of serpent
+60,5.5948885,5.138143,594.12,26,Ori,Orion,"Orion, the hunter"
+61,19.6064744,-64.784051,377.67,44,Pav,Pavo,Peacock
+62,22.7015668,19.117211,1120.79,7,Peg,Pegasus,"Pegasus, the winged horse"
+63,3.4983203,43.884509,615,24,Per,Perseus,"Perseus, hero who saved Andromeda"
+64,0.7654959,-47.18675,469.32,37,Phe,Phoenix,Phoenix
+65,5.6182317,-52.239238,246.74,59,Pic,Pictor,Easel
+66,22.2857963,-30.510818,245.37,60,PsA,Piscis Austrinus,Southern fish
+67,0.6482602,10.770362,889.42,14,Psc,Pisces,Fishes
+68,7.6191621,-32.961463,673.43,20,Pup,Puppis,Stern of the Argonauts' ship
+69,8.9122056,-28.387602,220.83,65,Pyx,Pyxis,Compass on the Argonauts' ship
+70,3.8964465,-60.708283,113.94,82,Ret,Reticulum,Net
+71,0.4657625,-31.714312,474.76,36,Scl,Sculptor,Sculptor's tools
+72,16.790259,-31.81767,496.78,33,Sco,Scorpius,Scorpion
+73,18.6730626,-9.851326,109.11,84,Sct,Scutum,Shield
+74,16.5001885,4.567581,636.93,23,Ser,Serpens,Serpent
+75,15.6940214,9.878836,428.48,23,Ser1,Serpens Caput,Serpent's Head
+76,18.1594009,-6.318851,208.44,23,Ser2,Serpens Cauda,Serpent's Tail
+77,10.2725601,-2.605358,313.52,47,Sex,Sextans,Sextant
+78,19.7101332,18.628717,79.92,86,Sge,Sagitta,Arrow
+79,19.1849153,-27.091776,867.43,15,Sgr,Sagittarius,Archer
+80,4.422131,16.83941,797.25,17,Tau,Taurus,Bull
+81,19.3274808,-50.786922,251.51,57,Tel,Telescopium,Telescope
+82,16.0630687,-65.641693,109.98,83,TrA,Triangulum Australe,Southern triangle
+83,2.1394035,32.057844,131.85,78,Tri,Triangulum,Triangle
+84,23.8968438,-63.916632,294.56,48,Tuc,Tucana,Toucan
+85,10.9825315,52.529003,1279.66,3,UMa,Ursa Major,Big bear
+86,15.256967,76.105337,255.86,56,UMi,Ursa Minor,Little bear
+87,9.6235624,-47.409512,499.65,32,Vel,Vela,Sail of the Argonauts' ship
+88,13.2898872,-2.63866,1294.43,2,Vir,Virgo,Virgin
+89,7.8063845,-69.34626,141.35,76,Vol,Volans,Flying fish
+90,20.286165,24.523796,268.17,55,Vul,Vulpecula,Fox

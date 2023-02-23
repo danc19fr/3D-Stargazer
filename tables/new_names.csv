@@ -1,0 +1,162 @@
+#,New names,Names added or modified from hygdata_v3.csv.,,
+#,id,The database primary key in https://github.com/astronexus/HYG-Database/blob/master/hygdata_v3.csv.,,
+#,bf,"The Bayer / Flamsteed designation, primarily from the Fifth Edition of the Yale Bright Star Catalog. This is a combination of the two designations. The Flamsteed number, if present, is given first; then a three-letter abbreviation for the Bayer Greek letter; the Bayer superscript number, if present; and finally, the three-letter constellation abbreviation. Thus Alpha Andromedae has the field value ""21Alp And"", and Kappa1 Sculptoris (no Flamsteed number) has ""Kap1Scl"".",,
+#,proper,"A common name for the star, such as ""Barnard's Star"" or ""Sirius"". I have taken these names primarily from the Hipparcos project's web site, which lists representative names for the 150 brightest stars and many of the 150 closest stars. I have added a few names to this list. Most of the additions are designations from catalogs mostly now forgotten (e.g., Lalande, Groombridge, and Gould [""G.""]) except for certain nearby stars which are still best known by these designations.",,
+#,bayer,The Bayer designation as a distinct value,,
+#,flam,The Flamsteed number as a distinct value,,
+#,,,,
+id,bf,proper,bayer,flam
+43939,65Alp Cnc,Acubens,Alp,65
+50193,36Zet Leo,Adhafera,Zet,36
+18485,45Eps Per,Adid Australis,Eps,45
+17316,39Del Per,Adid Borealis,Del,39
+35169,Pi  Pup,Ahadi,Pi,
+20837,74Eps Tau,Ain,Eps,74
+107742,Gam Gru,Al Dhanab,Gam,
+14292,23Gam Per,Al Fakhbir,Gam,23
+96858,18Del Cyg,Al Fawaris,Del,18
+57226,63Chi UMa,Al Kaphrah,Chi,63
+37633,77Kap Gem,Al Kirkab,Kap,77
+81020,23Tau Sco,Al Niyat,Tau,23
+79870,20Sig Sco,Al Niyat,Sig,20
+42709,Alp Pyx,Al Sumut,Alp,
+102287,2Eps Aqr,Albali,Eps,2
+59020,1Alp Crv,Alchiba,Alp,1
+83638,22Zet Dra,Aldhibah,Zet,22
+105691,8Bet Cep,Alfirk,Bet,8
+99743,6Alp2Cap,Algedi Secunda,Alp-2,6
+52575,Mu  Vel,Alherem,Mu,
+76819,16Zet UMi,Alifa al Farkadain,Zet,16
+75182,51Mu 1Boo,Alkalurops,Mu-1,51
+53584,7Alp Crt,Alkes,Alp,7
+35253,54Lam Gem,Alkibash,Lam,54
+67786,Zet Cen,Alnair,Zet,
+93819,Alp CrA,Alphecca Meridiana,Alp,
+95052,Alp Sgr,Alrami,Alp,
+9467,113Alp Psc,Alrischa,Alp,113
+40959,31    Lyn,Alsciaukat,,31
+94081,57Del Dra,Altais,Del,57
+40411,17Bet Cnc,Altarf,Bet,17
+55055,54Nu  UMa,Alula Borealis,Nu,54
+32276,31Xi  Gem,Alzirr,Xi,31
+109657,43The Aqr,Ancha,The,43
+13254,2Tau2Eri,Angetenar,Tau-2,2
+95473,6Alp Vul,Anser,Alp,6
+79580,21Eta UMi,Anwar al Farkadain,Eta,21
+94946,Bet1Sgr,Arkab Prior,Bet-1,
+93213,38Zet Sgr,Ascella,Zet,38
+70274,23The Boo,Asellus Primus,The,23
+42792,47Del Cnc,Assellus Australis,Del,47
+17406,38Omi Per,Atik,Omi,38
+62890,43Del Vir,Auva,Del,43
+13667,3Eta Eri,Azha,Eta,3
+109081,26The Peg,Baham,The,26
+8628,55Zet Cet,Baten Kaitos,Zet,55
+89660,44Chi Dra,Batentaban Borealis,Chi,44
+19538,38Omi1Eri,Beid,Omi,38
+66447,Eps Cen,Birdun,Eps,
+73486,20Sig Lib,Brachium,Sig,20
+64758,46Gam Hya,Cauda Hydrae,Gam,46
+78148,Eta Lup,Cerberus,Eta,
+61124,8Bet CVn,Chara,Bet,8
+54718,70The Leo,Chertan,The,70
+100020,9Bet Cap,Dabih Major,Bet,9
+14843,Alp For,Dalim,Alp,
+107213,49Del Cap,Deneb Algedi,Del,49
+64037,42Alp Com,Diadem,Alp,42
+91633,4Eps1Lyr,Double Double,Eps-1,4
+75229,12Iot Dra,Edasich,Iot,12
+18677,35Lam Tau,Elthor,Lam,35
+116361,35Gam Cep,Errai,Gam,35
+30049,1Zet CMa,Furud,Zet,1
+106916,Mu  Cep,Garnet Star,Mu,
+56044,1Lam Dra,Gianfar,Lam,1
+86403,Kap Sco,Girtab,Kap,
+14318,25Rho Per,Gorgonea Tertia,Rho,25
+111768,Bet Gru,Gruid,Bet,
+87314,32Xi  Dra,Grumium,Xi,32
+9217,Alp Hyi,Head of Hydrus,Alp,
+66040,79Zet Vir,Heze,Zet,79
+111676,42Zet Peg,Homam,Zet,42
+20155,54Gam Tau,Hyadum I,Gam,54
+20405,61Del1Tau,Hyadum II,Del-1,61
+112601,73Lam Aqr,Hydor,Lam,73
+90835,Alp Sct,Ionnina,Alp,
+12673,86Gam Cet,Kaffaljidhma,Gam,86
+71634,Alp Lup,Kakkab,Alp,
+19799,40Omi2Eri,Keid,Omi-2,40
+104649,8Alp Equ,Kitalpha,Alp,8
+7083,99Eta Psc,Kullat Nunu,Eta,99
+85567,25Nu 2Dra,Kuma,Nu,25
+85436,34Ups Sco,Lesath,Ups,34
+85433,76Lam Her,Massym,Lam,76
+32161,27Eps Gem,Mebsuta,Eps,27
+26142,39Lam Ori,Meissa,Lam,39
+34000,43Zet Gem,Mekbuda,Zet,43
+18567,46Xi  Per,Menkib,Xi,46
+8777,2Alp Tri,Metallah,Alp,2
+59134,2Eps Crv,Minkar,Eps,2
+13234,15Eta Per,Miram,Eta,15
+14632,27Kap Per,Misam,Kap,27
+61739,Gam Cen,Muhlifain,Gam,
+33956,23Gam CMa,Muliphein,Gam,23
+41586,1Omi UMa,Muscida,Omi,1
+61392,Alp Mus,Myla,Alp,
+106642,40Gam Cap,Nashira,Gam,40
+4417,27Gam Cas,Navi,Gam,27
+85998,55Xi  Ser,Nehushtan,Xi,55
+73327,42Bet Boo,Nekkar,Bet,42
+100555,10Pi  Cap,Okul,Pi,10
+101445,Alp Ind,Persian,Alp,
+74868,13Gam UMi,Pherkad,Gam,13
+89064,13Mu  Sgr,Polis,Mu,13
+118838,29Gam Vir,Porrima,Gam,29
+53075,46    LMi,Praecipua,,46
+29582,7Eta Gem,Propus,Eta,7
+16496,18Eps Eri,Ran,Eps,18
+17336,23Del Eri,Rana,Del,23
+48318,24Mu  Leo,Ras Elased Borealis,Mu,24
+101442,6Bet Del,Rotanev,Bet,6
+83755,35Eta Oph,Sabik,Eta,35
+110049,48Gam Aqr,Sadachbia,Gam,48
+37340,26Alp Mon,Samoht,Alp,26
+84121,65Del Her,Sarin,Del,65
+110326,52Pi  Aqr,Seat,Pi,52
+8867,45Eps Cas,Segin,Eps,45
+89364,Eta Sgr,Sephda,Eta,
+96450,5Alp Sge,Sham,Alp,5
+112776,76Del Aqr,Skat,Del,76
+101629,9Alp Del,Sualocin,Alp,9
+47373,14Omi Leo,Subra,Omi,14
+44689,Lam Vel,Suhail,Lam,
+39840,Gam2Vel,Suhail al Muhlif,Gam-2,
+92902,14Gam Lyr,Sulafat,Gam,14
+69479,99Iot Vir,Syrma,Iot,99
+22396,1Pi 3Ori,Tabit,Pi-3,1
+44000,9Iot UMa,Talitha,Iot,9
+50655,34Mu  UMa,Tania Australis,Mu,34
+30270,13Mu  Gem,Tejat Posterior,Mu,13
+21340,52Ups2Eri,Theemin,Ups-2,52
+39644,15Rho Pup,Tureis,Rho,15
+97124,63Eps Dra,Tyl,Eps,63
+81830,22Eps UMi,Urodelus,Eps,22
+52268,The Car,Vathorz Posterior,The,
+35453,55Del Gem,Wasat,Del,55
+27559,Bet Col,Wazn,Bet,
+79640,2Eps Oph,Yed Posterior,Eps,2
+79352,1Del Oph,Yed Prior,Del,1
+85560,23Del UMi,Yildun,Del,23
+59945,15Eta Vir,Zaniah,Eta,15
+57584,5Bet Vir,Zavijava,Bet,5
+76100,38Gam Lib,Zuben Elakrab,Gam,38
+76235,39Ups Lib,Zuben Hakrabi,Ups,39
+51428,Rho Car,,Rho,
+50229,q Car,,q,
+38721,11j    Pup,,j,11
+99529,32Omi2 Cyg,,Omi-2,32
+41190,C Hyd,,C,
+21349,88  d   Tau,,d,88
+21536,90  c  Tau,,c,90
+46600,23  h  UMa,,h,23
+46568,N Vel,,N,
+50050,q Vel,,q,
