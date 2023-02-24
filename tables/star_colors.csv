@@ -1,0 +1,16 @@
+#,star_colors,,,
+#,,,,
+#,ci,"Color index.  0,1,2,3,4,5,6 = O,B,A,F,G,K,M = Blue, Blue-white, White, Yellow-white, Yellow, Orange, Red.",,
+#,r,Red [0 -_255],,
+#,g,Green [0 -_255],,
+#,b,Blue [0 -_255],,
+#,br,"Brightness = (r + g + b) / (3 * 255), to adjust star image size",,
+#,,,,
+ci,r,g,b,br
+0,224,231,255,0.93
+1,247,245,255,0.98
+2,255,255,255,1.00
+3,255,255,220,0.95
+4,255,255,210,0.94
+5,255,244,200,0.91
+6,255,209,163,0.82
