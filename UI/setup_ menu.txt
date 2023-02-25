@@ -1,0 +1,74 @@
+Setup menu
+	Show
+	Color
+	3D Mode
+
+Show
+	Star names
+	Constellation names
+	Constellation lines
+	Instrument panel
+	RA and DEC lines
+
+Color
+	Colors
+	Black & White
+	Negative
+
+3D Mode
+	Mono
+	Anaglyph
+	Parallel
+	Cross-eye
+
+
+Instrument Panel
+	Center
+	RA	  12.00 hr
+	DEC	  45.00 deg
+
+	Viewpoint
+	RA	  0.00 hr
+	DEC	 45.00 deg
+	Dist	 10.0 pc
+	(do not show if Dist = 0)
+
+	Field of view
+	H	 30 deg
+	V	120 deg
+
+Star data
+Touch near star to show.
+Touch again or Back to hide.
+	Name	Deneb
+	HR	7924
+	HR	197345
+	HIP	102098
+	RA	20.703494 hr
+	DEC	45.361660 deg
+	Dist	430 pc
+	Mag	1.33
+	Color	White
+
+Menu Bar
+	Back
+	Setup
+	Help
+
+Gestures
+	Portrait mode, lower half of screen
+	Landscape mode, right half of screen
+		Swipe horizontal = pan
+		Swipe vertical = tilt
+		Pinch/spread = zoom
+
+	Portrait mode, upper half of screen
+	Landscape mode, left half of screen
+		Swipe horizontal = interpupillary distance (parsecs)
+		Swipe vertical = warp
+		Pinch/spread = zoom
+
+
+	
+
+
